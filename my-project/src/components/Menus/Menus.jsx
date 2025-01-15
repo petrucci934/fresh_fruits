@@ -1,10 +1,10 @@
 import React from 'react'
-import Fruit1 from '../../../assets/fruits/apple.png'
-import Fruit2 from '../../../assets/fruits/avocado.png'
-import Fruit3 from '../../../assets/fruits/cherry.png'
-import Fruit4 from '../../../assets/fruits/orange.png'
+import Fruit1 from '../../assets/fruits/apple.png'
+import Fruit2 from '../../assets/fruits/avocado.png'
+import Fruit3 from '../../assets/fruits/cherry.png'
+import Fruit4 from '../../assets/fruits/orange.png'
 import { motion } from 'framer-motion'
-import { FadeLeft } from '../../../utility/animation'
+import { FadeLeft } from '../../utility/animation'
 
 const MenuData=[
  {
@@ -61,7 +61,8 @@ const Menus = () => {
                 initial="hidden"
                 whileInView={"visible"} 
                 whileHover={{scale:1.1}}
-                key={menu.id} className='bg-white rounded-3xl px-4 py-2 shadow-[0_0_22px_0_rgba(0,0,0,0.15)] flex flex-row justify-around items-center gap-3'>
+                key={menu.id} 
+                className='bg-white rounded-3xl px-4 py-2 shadow-[0_0_22px_0_rgba(0,0,0,0.15)] flex flex-row justify-around items-center gap-3'>
                     <img 
                     key={menu.id} 
                     src={menu.img} 
@@ -69,8 +70,7 @@ const Menus = () => {
                     className='w-[60px] md-4 scale-110 transform-translate-y-6'
                     />
                     <div>
-                        <h1                    
-                        clssName='text-lg font-semibold'>{menu.title}</h1>
+                        <h1 className='text-lg font-semibold'>{menu.title}</h1>
                         <p className='text-lg font-semibold text-secondary'>{menu.price}</p>
                     </div>
                 </motion.div>
