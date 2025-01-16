@@ -18,7 +18,7 @@ const Banner2 = () => {
                      viewport={{once:true}}  
                     className='text-3xl lg:text-6xl font-bold uppercase'>
                         {" "}
-                        Brand Info 
+                        On Line Fruit Store
                     </motion.h1>
 
                    
@@ -37,7 +37,7 @@ const Banner2 = () => {
                     whileInView='visible'
                     viewport={{once:true}} 
                     >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae incidunt accusantium quam alias minus voluptates error harum! Libero itaque nihil magni quam nobis. Fugiat ducimus doloribus id, quis voluptatem cumque.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae incidunt accusantium quam alias minus voluptates error harum! Libero itaque nihil magni
 
                     </motion.p>
                     <motion.div
@@ -46,7 +46,7 @@ const Banner2 = () => {
                     animate='visible' 
                     className=' flex justify-center md:justify-start '>
                         <button className='primary-btn '>
-                            Learn More                  
+                            Download the App                 
                         </button>
                     </motion.div>
                 </div>
@@ -59,7 +59,7 @@ const Banner2 = () => {
                     transition={{duration:1,delay:0.3}} 
                     src={BannerPng} 
                     alt="fruit-plate" 
-                    className='w-[350px] md:max-w-[400px] h-full object-cover drop-shadow '>
+                    className='w-[400px] md:max-w-[500px] h-full object-cover drop-shadow '>
                 </motion.img>
             </div>
            
