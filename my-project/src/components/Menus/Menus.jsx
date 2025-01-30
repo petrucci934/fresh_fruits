@@ -1,4 +1,3 @@
-import React from 'react'
 import Fruit1 from '../../assets/fruits/apple.png'
 import Fruit2 from '../../assets/fruits/avocado.png'
 import Fruit3 from '../../assets/fruits/cherry.png'

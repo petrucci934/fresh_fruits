@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoBagHandleOutline } from'react-icons/io5'
 import HeroImg from '/src/assets/fruit-plate.png'
 import LeafPng from '/src/assets/leaf.png'

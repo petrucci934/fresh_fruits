@@ -1,7 +1,6 @@
-import React from 'react'
 import BannerPng from '../../assets/fruits-splash.png'
 import { motion } from 'framer-motion'
-import { FadeLeft, FadeUp } from'/src/utility/animation'
+import {  FadeUp } from'/src/utility/animation'
 
 const Banner = () => {
   return (
@@ -27,7 +26,7 @@ const Banner = () => {
                      initial='hidden'
                      whileInView='visible'
                      viewport={{once:true}}  
-                    className='text-3xl lg:text-6xl font-bold uppercase'>
+                     className='text-3xl lg:text-6xl font-bold uppercase'>
                         {" "}
                         Brand Info 
                     </motion.h1>
